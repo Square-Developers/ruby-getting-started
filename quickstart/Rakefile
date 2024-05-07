@@ -1,0 +1,9 @@
+task default: %w[test]
+
+task :run do
+  ruby 'lib/sdk_validation.rb'
+end
+
+task :test do
+  ruby 'test/sdk_validation_test.rb'
+end
