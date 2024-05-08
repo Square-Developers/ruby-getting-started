@@ -1,6 +1,7 @@
 # Square Ruby SDK Quickstart
 
 This quickstart sample creates a Square client instance with your Square access token and then lists the locations in your account.
+The sample is based on the [Ruby SDK Quickstart guide](https://developer.squareup.com/docs/sdks/ruby/quick-start).
 
 ## Setup
 
@@ -13,9 +14,9 @@ This quickstart sample creates a Square client instance with your Square access 
 
 1. Change into the `quickstart` directory.
 
-1. Copy `.env.example` to `.env` and replace `yourSandboxAccessToken` with your access token.
+1. Copy `.env.example` to `.env` and replace `YOUR_ACCESS_TOKEN` with [your Sandbox access token](https://developer.squareup.com/docs/build-basics/access-tokens#get-personal-access-token).
     ```
-    SQUARE_ACCESS_TOKEN=yourSandboxAccessToken
+    SQUARE_ACCESS_TOKEN=EAAAEBRdRGhiYCNp8rwVzdcU-qbZuhsM55iGYH_EXAMPLE
     ```
 
 1. In `Gemfile`, replace `PLACE_VERSION_HERE` with the latest SDK version from [here](https://developer.squareup.com/docs/sdks/ruby).
@@ -38,8 +39,6 @@ This quickstart sample creates a Square client instance with your Square access 
 ## Resources
 
 [Square Ruby SDK Guide](https://developer.squareup.com/docs/sdks/ruby/using-ruby-sdk) - Details on how to configure and use the Square client.
-
-[Ruby SDK Quickstart Guide](https://developer.squareup.com/docs/sdks/ruby/quick-start) -  Documentation that the `quickstart` directory is based on.
 
 [Ruby Gem Repository for Square](https://rubygems.org/gems/square.rb) - Repo with the SDK package files.
 
